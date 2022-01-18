@@ -1,5 +1,5 @@
 {
-  "name": "HiSense Air Conditioners",
+  "name": "HiSense & FGLair Air Conditioners",
   "version": "0.3.9",
   "slug": "hisense_ac",
   "description": "Interface for controlling Air Conditioners, e.g. with HiSense modules.",
