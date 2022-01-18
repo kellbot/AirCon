@@ -400,6 +400,10 @@ class FglProperties(Properties):
                                          'decoder': lambda x: FglFanSpeed[x]
                                      }
                                  })
+  display_temperature: float = field(default=81.0, metadata={
+      'base_type': 'decimal',
+      'read_only': True
+  })  # EnvironmentTemperature (Fahrenheit)
   adjust_temperature: int = field(default=25,
                                   metadata={
                                       'base_type': 'integer',
