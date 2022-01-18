@@ -546,7 +546,8 @@ class FglDevice(Device):
         'fan_speed': 'fan_speed',
         'work_mode': 'operation_mode',
         'swing_mode': 'af_vertical_swing',
-        'temp': 'adjust_temperature'
+        'temp': 'adjust_temperature',
+        'env_temp': 'display_temperature'
     }
     self.work_modes = ['off', 'fan_only', 'heat', 'cool', 'dry', 'auto']
     self.fan_modes = ['auto', 'quiet', 'low', 'medium', 'high']
