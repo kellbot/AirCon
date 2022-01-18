@@ -549,6 +549,8 @@ class FglDevice(Device):
         'temp': 'adjust_temperature',
         'env_temp': 'display_temperature'
     }
+    def get_env_temp(self) -> int:
+      return self.get_property('display_temperature')
     self.work_modes = ['off', 'fan_only', 'heat', 'cool', 'dry', 'auto']
     self.fan_modes = ['auto', 'quiet', 'low', 'medium', 'high']
 
